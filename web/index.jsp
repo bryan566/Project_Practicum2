@@ -9,27 +9,35 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Inicio</title>
+        <title>EPEDISSUR</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
         <link href="Css/Estilo_app.css" rel="stylesheet" type="text/css"/>
+        <link href="Css/Estilo_indice1.css" rel="stylesheet" type="text/css"/>
+        
     </head>
-    <body> 
-        <div id="Cuadro">
+    <body>
+       
+        <header>
+            <div class="contenedor">
+                <a class="logo">EPEDISSUR</a>           
+            </div> 
+        </header>
+       
+        <div class="login_App">
+            <img class="Avatar"src="Imagenes/Login.1.png" alt="logo de mi app">   
+            <h1>INICIAR SESIÓN</h1>
             <form>
-                <p id="titulo">IDENTIFICACIÓN DE USUARIO</p>
-                <hr>
-                <br/><br/>
-                <label id="subtitulo1">USUARIO</label>
-                <br/><br/>
-                <input type="text" class="entrada" />   
-                <br/><br/>
-                <label id="subtitulo2">CONTRASEÑA</label>
-                <br/><br/>
-                <input type="password" class="entrada" />  
-                <br/><br/>
-                <input type="submit" value="ACCEDER"id="boton" />
-                </form>
-                <br/>
-                <p id="marca">Epedissur</p>          
-            </div>                
+              <label for="username">Usuario</label>
+              <input type="text" placeholder="Digite su usuario"> 
+              <label for="contraseña">Contraseña</label>
+              <input type="password" placeholder="Digite su contraseña"> 
+              
+              <input type="submit" value="Ingresar">
+              
+              <a href="#">No estás registrado en el sistema?</a><br>
+              <a href="Registro.jsp">Registrate</a>
+            </form>
+        </div>
+        
     </body>
 </html>
