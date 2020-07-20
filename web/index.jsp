@@ -26,11 +26,11 @@
         <div class="login_App">
             <img class="Avatar"src="Imagenes/Login.1.png" alt="logo de mi app">   
             <h1>INICIAR SESIÓN</h1>
-            <form>
+            <form action="Ingreso_al_sistema.jsp">
               <label for="username">Usuario</label>
-              <input type="text" placeholder="Digite su usuario"> 
+              <input type="text" name="txtuser" placeholder="Digite su usuario"> 
               <label for="contraseña">Contraseña</label>
-              <input type="password" placeholder="Digite su contraseña"> 
+              <input type="password" name="txtcontraseña" placeholder="Digite su contraseña"> 
               
               <input type="submit" value="Ingresar">
               

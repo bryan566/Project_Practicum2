@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class="paquetes">
-            <form action="" class="formulario-user">
+            <form action="index.jsp" class="formulario-user">
                 
                 <h2 class="regis-user">REGISTRARSE</h2>
                
