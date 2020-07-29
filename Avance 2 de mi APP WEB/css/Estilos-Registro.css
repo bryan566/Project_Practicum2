@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+
+.paquetes .formulario-user .registro-form .regis-user{
+    font-weight: normal;
+    font-family: serif;
+    color: #ff851b;
+    padding: 18px;
+
+}
+
+.paquetes .formulario-user{
+    background: #cc0000;
+    max-width: 650px;
+    margin: auto;
+    padding: 25px 100px;
+    margin-top: 35px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+
+
+}
+.paquetes .formulario-user .campos{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: serif;
+    position: relative;
+
+}
+.paquetes .formulario-user .botones{
+    background: rgba(0,0,0,.9);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: serif;
+
+}
+.paquetes .formulario-user .clase-boton{
+    width: 100%;
+    font-family: serif;
+    outline: none;
+    background: #00ff00;
+    font-size: 20px;
+    border: none;
+    color: #000000;
+    padding: 6px 0px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-radius: 30px;
+
+}
+.paquetes .formulario-user .clase-boton:hover{
+    background: #00cccc;
+}
+.paquetes h2{
+    font-size: 25px;
+    font-family: serif;
+    padding-left:40px;
+    color: #ffffff;
+}
+.paquetes a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    color: cornsilk;
+    font-family: serif;
+    transition: all .5s ease;
+    top: 177%;
+    left: 68%;
+    position: absolute;
+
+}
+.paquetes a:hover{
+    background: #00cccc;
+}

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-instagram.12.png) no-repeat center top;
+    background-size: 100%;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-attachment: fixed;
+
+
+}
+.login_App{
+    width: 490px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+.login_App .avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+
+}
+
+
+
+.login_App label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login_App input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_App h1{
+    margin: 0;
+    padding: 0 0 25px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.login_App input[type="text"],
+.login_App input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #3300ff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+
+}
+.login_App input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #009933;
+    color:#ffffff;
+    font-size: 21px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: serif;
+}
+.login_App a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: cornsilk;
+    font-family: serif;
+    transition: all .5s ease;
+}
+.login_App a:hover{
+    background:  #ff3300;
+}
